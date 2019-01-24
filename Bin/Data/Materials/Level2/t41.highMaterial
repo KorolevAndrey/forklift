@@ -1,0 +1,5 @@
+highLevelMaterial t41
+{
+	template = ShaderBaseMaterial
+	specularColor = 1 1 1
+}

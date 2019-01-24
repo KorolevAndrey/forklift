@@ -1,0 +1,130 @@
+type Forklift
+{
+	class = Forklift
+	fmaximumspeedgear1 = 4
+	bmaximumspeedgear1 = 2
+	brakeforcegear1 = 40
+	forwardgear1force = 30
+	backwardgear1force = 30
+	rotationspeed = 10
+	rotation = 8
+	rotationradius = 50
+	forkupmax = 58
+	forkupspeed = 0.02
+	soundOn = Types\Units\Vehicles\Forklift\Sounds\On.ogg
+	soundOff = Types\Units\Vehicles\Forklift\Sounds\Off.ogg
+	soundGearUp = Types\Units\Vehicles\Forklift\Sounds\GearUp.ogg
+	soundGearDown = Types\Units\Vehicles\Forklift\Sounds\GearDown.ogg
+	allowPlayerControl = True
+	viewRadius = 120
+	fpsCameraOffset = -4 0 2
+	lifeMax = 100
+	targetPriority = 1
+	physicsModel = Types\Units\Vehicles\Forklift\Forklift.physics
+	allowEditorCreate = True
+	gears
+	{
+		item
+		{
+			number = -1
+			speedRange = -10 -0.8
+			soundMotor = Types\Units\Vehicles\Forklift\Sounds\MotorRun.ogg
+		}
+		item
+		{
+			number = 0
+			speedRange = -0.9 0.9
+			soundMotor = Types\Units\Vehicles\Forklift\Sounds\MotorIdle.ogg
+		}
+		item
+		{
+			number = 1
+			speedRange = 0.8 7.1
+			soundMotor = Types\Units\Vehicles\Forklift\Sounds\MotorRun.ogg
+		}
+		item
+		{
+			number = 2
+			speedRange = 7 13.1
+			soundMotor = Types\Units\Vehicles\Forklift\Sounds\MotorRun.ogg
+		}
+		item
+		{
+			number = 3
+			speedRange = 13 15
+			soundMotor = Types\Units\Vehicles\Forklift\Sounds\MotorRun.ogg
+		}
+	}
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = Types\Units\Vehicles\Forklift\Mesh\Fcharacter.mesh
+			castDynamicShadows = True
+			position = 0.08494067 0 0.4060639
+			rotation = 0 0 -0.7071068 -0.7071068
+			scale = 0.05743601 0.05743601 0.05743601
+		}
+		mesh
+		{
+			meshName = Types\Units\Vehicles\Forklift\Mesh\Forklift.mesh
+			castDynamicShadows = True
+			position = 0.01583946 0 -0.3126737
+			scale = 0.9708369 0.9708369 0.9708369
+		}
+		mesh
+		{
+			meshName = Types\Units\Vehicles\Forklift\Mesh\Fork.mesh
+			castDynamicShadows = True
+			body = fork
+			position = -1.813474 0 -0.2766896
+			scale = 0.7262927 0.6792672 0.7262927
+		}
+		mesh
+		{
+			meshName = Types\Units\Vehicles\Forklift\Mesh\Wheelforklift.mesh
+			castDynamicShadows = True
+			body = leftwheel
+			position = 0 -0.2116559 0
+			scale = 0.1789381 0.1789381 0.1789381
+		}
+		mesh
+		{
+			meshName = Types\Units\Vehicles\Forklift\Mesh\Wheelforklift.mesh
+			castDynamicShadows = True
+			body = rightwheel
+			position = 0 0.2116559 0
+			rotation = 0 0 -1 -4.371139E-08
+			scale = 0.1789381 0.1789381 0.1789381
+		}
+		mesh
+		{
+			meshName = Types\Units\Vehicles\Forklift\Mesh\Wheelforklift.mesh
+			castDynamicShadows = True
+			body = wheelRearRight
+			position = 0 0.2116559 0
+			rotation = 0 0 -1 -4.371139E-08
+			scale = 0.1789381 0.1789381 0.1789381
+		}
+		mesh
+		{
+			meshName = Types\Units\Vehicles\Forklift\Mesh\Wheelforklift.mesh
+			castDynamicShadows = True
+			body = wheelRearLeft
+			position = 0 -0.2116559 0
+			scale = 0.1789381 0.1789381 0.1789381
+		}
+		helper
+		{
+			alias = leftWheel
+			position = 0.6933888 0.5345718 -0.6280293
+			scale = 0.7 0.7 0.7
+		}
+		helper
+		{
+			alias = rightWheel
+			position = 0.6933888 -0.5345718 -0.6280293
+			scale = 0.7 0.7 0.7
+		}
+	}
+}

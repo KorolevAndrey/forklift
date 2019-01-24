@@ -1,0 +1,9 @@
+highLevelMaterial skysphere
+{
+	template = ShaderBaseMaterial
+	lighting = False
+	diffuse1Map
+	{
+		texture = Materials\Level1\skysphere.jpg
+	}
+}

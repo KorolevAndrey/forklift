@@ -1,0 +1,7 @@
+highLevelMaterial forklift08
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.627451 0.03921569 0
+	reflectionColor = 1 0.4313726 0
+	specularColor = 0.6588235 0.5960785 0.4666667
+}

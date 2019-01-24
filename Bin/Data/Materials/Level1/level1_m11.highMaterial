@@ -1,0 +1,4 @@
+highLevelMaterial level1_m11
+{
+	template = ShaderBaseMaterial
+}

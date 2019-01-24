@@ -1,0 +1,8 @@
+highLevelMaterial wheel02
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0 0 0
+	reflectionColor = 0.3882353 0.3882353 0.3882353
+	specularColor = 1 1 1
+	specularShininess = 32.216
+}

@@ -1,0 +1,8 @@
+highLevelMaterial t52
+{
+	template = ShaderBaseMaterial
+	blending = AlphaAdd
+	diffuseColor = 1 0.2980392 0 0.3921569
+	reflectionColor = 1 1 1
+	specularColor = 1 1 1
+}

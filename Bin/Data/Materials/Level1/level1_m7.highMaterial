@@ -1,0 +1,17 @@
+highLevelMaterial level1_m7
+{
+	template = ShaderBaseMaterial
+	specularColor = 0.8196079 0.8196079 0.8196079
+	diffuse1Map
+	{
+		texture = Materials\Level1\door.png
+	}
+	specularMap
+	{
+		texture = Materials\Level1\door_s.png
+	}
+	normalMap
+	{
+		texture = Materials\Level1\door_n.png
+	}
+}

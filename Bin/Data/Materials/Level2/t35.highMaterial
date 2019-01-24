@@ -1,0 +1,14 @@
+highLevelMaterial t35
+{
+	template = ShaderBaseMaterial
+	specularColor = 0.5176471 0.5176471 0.5176471
+	specularShininess = 30
+	diffuse1Map
+	{
+		texture = Materials\Level2\t35.png
+	}
+	diffuse2Map
+	{
+		texture = Materials\Level2\t35.png
+	}
+}

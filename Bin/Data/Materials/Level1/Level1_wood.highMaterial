@@ -1,0 +1,15 @@
+highLevelMaterial Level1_wood
+{
+	template = ShaderBaseMaterial
+	alphaRejectFunction = GreaterEqual
+	specularColor = 0.6862745 0.6862745 0.6862745
+	specularShininess = 33.108
+	diffuse1Map
+	{
+		texture = Materials\Level1\wood.png
+	}
+	specularMap
+	{
+		texture = Materials\Level1\wood_s.png
+	}
+}

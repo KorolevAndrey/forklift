@@ -1,0 +1,10 @@
+highLevelMaterial t26
+{
+	template = ShaderBaseMaterial
+	specularColor = 1 1 1
+	specularShininess = 80
+	diffuse1Map
+	{
+		texture = Materials\Level2\t26.png
+	}
+}

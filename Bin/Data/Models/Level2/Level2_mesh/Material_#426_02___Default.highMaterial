@@ -1,0 +1,12 @@
+highLevelMaterial Material_#426/02___Default
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.7176471 0.7176471 0.7176471
+	reflectionColor = 0.03921569 0.03921569 0.03921569
+	specularColor = 1 1 1
+	specularShininess = 44.703
+	normalMap
+	{
+		texture = Models\Level2\Level2_mesh\Level2_tx (17).png
+	}
+}

@@ -1,0 +1,6 @@
+highLevelMaterial f2
+{
+	template = ShaderBaseMaterial
+	specularColor = 1 1 1
+	specularShininess = 5.459
+}

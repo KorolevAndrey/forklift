@@ -1,0 +1,15 @@
+type Level1Wood
+{
+	class = Dynamic
+	substance = Metal
+	physicsModel = Models\Level1\Level1Wood.physics
+	allowEditorCreate = True
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = Models\Level1\Wood.mesh
+			castDynamicShadows = True
+		}
+	}
+}

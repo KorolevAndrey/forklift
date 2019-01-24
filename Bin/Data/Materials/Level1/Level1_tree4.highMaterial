@@ -1,0 +1,7 @@
+highLevelMaterial Level1_tree4
+{
+	template = ShaderBaseMaterial
+	alphaRejectFunction = GreaterEqual
+	diffuseColor = 0.8078432 0.8078432 0.8078432
+	specularColor = 1 1 1
+}

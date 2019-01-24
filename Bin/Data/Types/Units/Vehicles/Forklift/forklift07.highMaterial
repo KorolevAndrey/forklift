@@ -1,0 +1,11 @@
+highLevelMaterial forklift07
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0 0 0
+	reflectionColor = 0.4392157 0.4392157 0.4392157
+	specularColor = 0.5686275 0.5686275 0.5686275
+	reflectionMap
+	{
+		texture = Types\Units\Vehicles\Forklift\metal.jpg
+	}
+}

@@ -1,0 +1,12 @@
+highLevelMaterial Material_#29
+{
+	template = ShaderBaseMaterial
+	lighting = False
+	culling = False
+	alphaRejectFunction = Greater
+	specularColor = 1 1 1
+	diffuse1Map
+	{
+		texture = Models\Level2\Level2_mesh\Level2_tx (9).png
+	}
+}

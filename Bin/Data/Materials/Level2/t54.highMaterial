@@ -1,0 +1,10 @@
+highLevelMaterial t54
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.6 0.6 0.6
+	specularColor = 0.8000001 0.8000001 0.8000001
+	normalMap
+	{
+		texture = Materials\Level2\t0.jpg
+	}
+}

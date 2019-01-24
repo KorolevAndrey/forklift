@@ -1,0 +1,6 @@
+highLevelMaterial f10
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.145098 0.1647059 0.1882353
+	specularColor = 0.7686275 0.7686275 0.7686275
+}

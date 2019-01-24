@@ -1,0 +1,10 @@
+highLevelMaterial Level2sky
+{
+	template = ShaderBaseMaterial
+	lighting = False
+	allowFog = False
+	diffuse1Map
+	{
+		texture = Models\Level2\Level2_mesh\Level2sky.png
+	}
+}

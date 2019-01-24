@@ -1,0 +1,10 @@
+highLevelMaterial Material_#426/Material_#31
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.8470589 0.8470589 0.8470589
+	specularColor = 0.4588236 0.4588236 0.4588236
+	diffuse1Map
+	{
+		texture = Materials\Level1\plastic2.png
+	}
+}

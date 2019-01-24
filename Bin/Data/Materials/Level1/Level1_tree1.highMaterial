@@ -1,0 +1,12 @@
+highLevelMaterial Level1_tree1
+{
+	template = ShaderBaseMaterial
+	blending = AlphaBlend
+	lighting = False
+	diffuseColor = 0.8039216 1 0.1568628
+	diffusePower = 1.405
+	diffuse1Map
+	{
+		texture = Materials\Level1\tree1.png
+	}
+}

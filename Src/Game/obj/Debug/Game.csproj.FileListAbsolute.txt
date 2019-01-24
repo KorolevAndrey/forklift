@@ -1,0 +1,8 @@
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\Game.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\Game.pdb
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\Game.xml
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\Game\obj\Debug\ResolveAssemblyReference.cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\Game\obj\Debug\Game.Properties.Resources.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\Game\obj\Debug\Game.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\Game\obj\Debug\Game.pdb

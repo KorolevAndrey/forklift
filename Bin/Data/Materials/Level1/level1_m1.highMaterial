@@ -1,0 +1,9 @@
+highLevelMaterial level1_m1
+{
+	template = ShaderBaseMaterial
+	blending = AlphaAdd
+	diffuseColor = 0 0 0 0.03137255
+	reflectionColor = 1 1 1
+	reflectionPower = 10
+	specularColor = 1 1 1
+}

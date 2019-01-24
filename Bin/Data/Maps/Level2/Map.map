@@ -1,0 +1,593 @@
+type = GameMap
+uin = 2
+classPrompt = GameMap
+gameMusic = Sounds\Music\Game.ogg
+ambientLight = 0.3921569 0.3921569 0.3921569
+editorCameraPosition = 6.598752 15.10794 8.775539
+editorCameraDirection = 4.044726 -0.7773662
+shadowColor = 1 1 1
+shadowPSSMSplitFactors = 0.1 0.4
+logicSystemManager = 3
+shadowTechnique = ShadowmapMedium
+rootEditorLayer
+{
+}
+entity
+{
+	type = LogicSystemManager
+	uin = 3
+	mapClassManager = 4
+	entity
+	{
+		type = LogicClassManager
+		uin = 4
+	}
+}
+entity
+{
+	type = StaticMesh
+	uin = 5
+	classPrompt = StaticMesh
+	position = 0 0 0
+	meshName = Models\Level2\Level2_mesh\Level2_0.mesh
+	castDynamicShadows = True
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 6
+	classPrompt = StaticMesh
+	position = 0 0 0
+	meshName = Models\Level2\Level2_mesh\Level2_1.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 7
+	classPrompt = StaticMesh
+	position = 0 0 0
+	meshName = Models\Level2\Level2_mesh\Level2_2.mesh
+	collision = False
+	castDynamicShadows = True
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 8
+	classPrompt = StaticMesh
+	position = 0 0 0
+	meshName = Models\Level2\Level2_mesh\Level2_3.mesh
+	collision = False
+	castDynamicShadows = True
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 9
+	classPrompt = StaticMesh
+	position = 0 0 0
+	meshName = Models\Level2\Level2_mesh\Level2_4.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 10
+	classPrompt = StaticMesh
+	position = -216.087 155.401 37.12975
+	rotation = 0 0 0.4598614 -0.8879907
+	meshName = Models\Level2\Level2_mesh\Level2_5.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 11
+	classPrompt = StaticMesh
+	position = -292.1804 -128.8335 98.70217
+	rotation = 0 0 -0.9531334 -0.3025504
+	scale = 12.0428 12.0428 12.0428
+	meshName = Models\Level2\Level2_mesh\Level2_tree1.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = Light
+	uin = 12
+	classPrompt = Light
+	lightType = Directional
+	diffuseColor = 1 0.9568628 0.9294118
+	diffusePower = 1
+	specularColor = 1 0.8000001 0.9019608
+	specularPower = 1
+	attenuationNear = 0
+	attenuationFar = 10
+	attenuationPower = 2
+	ffpAttenuationConstant = 1
+	ffpAttenuationLinear = 0
+	ffpAttenuationQuadric = 0
+	spotlightInnerAngle = 30
+	spotlightOuterAngle = 40
+	spotlightFalloff = 1
+	castShadows = True
+	allowStaticLighting = False
+	allowDynamicLighting = True
+	customShaderParameter = 0 0 0 0
+	position = 0 0 3.117226
+	rotation = 0.1143921 0.8117068 0.1697422 0.5470229
+	name = Light_0
+}
+entity
+{
+	type = StaticMesh
+	uin = 13
+	classPrompt = StaticMesh
+	position = -181.6186 -50.63642 13.19573
+	scale = 1.254816 1.254816 0.4806161
+	meshName = Models\Level2\Level2_mesh\Level2sky.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 14
+	classPrompt = StaticMesh
+	position = -186.2768 -247.1378 -24.45623
+	rotation = 0 0 0.3715897 0.9283971
+	meshName = Models\Level2\Level2_mesh\Level2_5.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 15
+	classPrompt = StaticMesh
+	position = -310.7585 40.36352 62.14965
+	rotation = 0 0 -0.1345445 0.9909075
+	meshName = Models\Level2\Level2_mesh\Level2_5.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 16
+	classPrompt = StaticMesh
+	position = -186.2768 -559.9476 72.05533
+	rotation = 0 0 0.7149905 0.6991342
+	scale = 3.570811 3.161955 2.538733
+	meshName = Models\Level2\Level2_mesh\Level2_5.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 17
+	classPrompt = StaticMesh
+	position = -67.20732 47.2094 2.460252
+	rotation = 0 0 0.2852457 0.9584544
+	scale = 0.7692308 0.7692308 0.7692308
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 18
+	classPrompt = StaticMesh
+	position = -57.91521 48.57563 1.969643
+	rotation = 0 0 0.2852457 0.9584544
+	scale = 0.5417118 0.5417118 0.5676081
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 19
+	classPrompt = StaticMesh
+	position = -64.24892 48.57563 1.969643
+	rotation = 0 0 0.2852457 0.9584544
+	scale = 0.5417118 0.5417118 0.5676081
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 20
+	classPrompt = StaticMesh
+	position = -60.76278 48.57563 2.386263
+	rotation = 0 0 0.2852457 0.9584544
+	scale = 0.7475624 0.7475624 0.7832993
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 21
+	classPrompt = StaticMesh
+	position = -58.31499 48.57563 1.608261
+	rotation = 0 0 -0.003982484 0.999992
+	scale = 0.5339731 0.5339731 0.5594995
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 22
+	classPrompt = StaticMesh
+	position = -60.35505 48.57563 2.405475
+	rotation = 0 0 -0.3324764 0.9431115
+	scale = 0.7422226 0.7422226 0.7777043
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 23
+	classPrompt = StaticMesh
+	position = -64.51215 48.57563 1.608261
+	rotation = 0 0 -0.3324764 0.9431115
+	scale = 0.5339731 0.5339731 0.5594995
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 24
+	classPrompt = StaticMesh
+	position = -67.07153 47.87474 1.996302
+	rotation = 0 0 0.913852 0.4060472
+	scale = 0.7692308 0.7692308 0.7692308
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 25
+	classPrompt = StaticMesh
+	position = -257.7394 -146.4714 60.01697
+	rotation = 0 0 0.9795771 0.2010691
+	scale = 4.066905 4.066905 4.066905
+	meshName = Models\Level2\Level2_mesh\Level2_tree1.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 26
+	classPrompt = StaticMesh
+	position = -215.555 154.5733 69.60307
+	rotation = 0 0 0.9491933 -0.3146936
+	scale = 4.066905 4.066905 4.066905
+	meshName = Models\Level2\Level2_mesh\Level2_tree1.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 27
+	classPrompt = StaticMesh
+	position = -219.7075 146.8714 24.75609
+	rotation = 0 0 0.9491933 -0.3146936
+	scale = 1.4884 1.4884 1.4884
+	meshName = Models\Level2\Level2_mesh\Level2_tree1.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 28
+	classPrompt = StaticMesh
+	position = -196.0064 160.0894 44.16873
+	rotation = 0.2290584 -0.07594156 0.9211407 -0.3053931
+	scale = 1.4884 1.4884 1.4884
+	meshName = Models\Level2\Level2_mesh\Level2_tree1.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 29
+	classPrompt = StaticMesh
+	position = -11.40604 90.44517 66.06607
+	rotation = 0.3146537 -0.4031275 -0.6774244 -0.528751
+	scale = 9.650912 9.650912 10.11227
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 30
+	classPrompt = StaticMesh
+	position = -11.40604 -38.10735 96.70682
+	rotation = -0.04094268 0.1277496 -0.522544 -0.8419926
+	scale = 10.18707 10.18707 10.67406
+	meshName = Models\Level2\Level2_mesh\Level2_tree0.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = StaticMesh
+	uin = 31
+	classPrompt = StaticMesh
+	position = -2.797569 66.10967 88.56492
+	rotation = -0.2767414 -0.1927277 0.763613 0.5506042
+	scale = 7.402933 7.402933 6.84373
+	meshName = Models\Level2\Level2_mesh\Level2_tree1.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = CubemapZone
+	uin = 32
+	classPrompt = CubemapZone
+	textureSize = Size512x512
+	globalZone = True
+	nearFarClipDistance = 1 1000
+	position = -168.6579 -14.42225 11.97376
+	name = CubemapZone_0
+}
+entity
+{
+	type = StaticMesh
+	uin = 33
+	classPrompt = StaticMesh
+	position = 10.78762 -2.855531 -0.02066636
+	rotation = 0 0 -1 -4.371139E-08
+	meshName = Models\Level2\conveyerbelt_l2.mesh
+	collision = False
+	castStaticShadows = False
+}
+entity
+{
+	type = DynamicCollision
+	uin = 34
+	classPrompt = DynamicCollision
+	active = True
+	position = 8.029101 -2.851547 0.3093674
+	scale = 25.31193 2.849853 1.031336
+}
+entity
+{
+	type = DynamicCollision
+	uin = 35
+	classPrompt = DynamicCollision
+	active = True
+	position = 20.16125 -2.915777 1.622338
+	scale = 9.735735 3.845107 3.502506
+}
+entity
+{
+	type = Fog
+	uin = 36
+	classPrompt = Fog
+	mode = Exp2
+	color = 1 0.6745098 0.5490196
+	expDensity = 0.0015
+	linearEnd = 1000
+}
+entity
+{
+	type = SpawnPoint
+	uin = 37
+	classPrompt = SpawnPoint
+	defaultPoint = False
+	position = 6.347101 10.97835 0.04575161
+	rotation = 0 0 0.9662043 -0.2577774
+	name = SpawnPoint_0
+}
+entity
+{
+	type = Level1Wood
+	uin = 38
+	classPrompt = Dynamic
+	position = -54.31468 -4.491422 0.7756943
+	rotation = 0 0 -0.4264582 0.9045073
+	name = Level1Wood_0
+}
+entity
+{
+	type = Level1Wood
+	uin = 39
+	classPrompt = Dynamic
+	position = -54.31468 -5.761941 0.7756943
+	rotation = 0 0 -0.4264582 0.9045073
+	name = Level1Wood_1
+}
+entity
+{
+	type = Level1Wood
+	uin = 40
+	classPrompt = Dynamic
+	position = -54.31468 -7.084008 0.7756943
+	rotation = 0 0 -0.4264582 0.9045073
+	name = Level1Wood_2
+}
+entity
+{
+	type = Level1Wood
+	uin = 41
+	classPrompt = Dynamic
+	position = -54.31468 -8.322225 0.7756943
+	rotation = 0 0 -0.4264582 0.9045073
+	name = Level1Wood_3
+}
+entity
+{
+	type = Level2Box
+	uin = 42
+	classPrompt = Dynamic
+	position = -20.53709 -12.54576 0.6509541
+	name = Level2Box_0
+}
+entity
+{
+	type = Level2Box
+	uin = 43
+	classPrompt = Dynamic
+	position = -20.53222 -13.88681 0.6536674
+	name = Level2Box_1
+}
+entity
+{
+	type = Level2Box
+	uin = 44
+	classPrompt = Dynamic
+	position = -20.45368 -15.62679 0.6550629
+	name = Level2Box_2
+}
+entity
+{
+	type = Level2Box
+	uin = 45
+	classPrompt = Dynamic
+	position = -17.66326 -13.75719 0.6516549
+	name = Level2Box_3
+}
+entity
+{
+	type = Level2Box
+	uin = 46
+	classPrompt = Dynamic
+	position = -18.97346 -9.861428 0.6544714
+	name = Level2Box_4
+}
+entity
+{
+	type = Level2Box
+	uin = 47
+	classPrompt = Dynamic
+	position = -14.67159 -12.6574 0.656589
+	name = Level2Box_5
+}
+entity
+{
+	type = Level2Box
+	uin = 48
+	classPrompt = Dynamic
+	position = -17.68443 -18.19359 0.6535385
+	name = Level2Box_6
+}
+entity
+{
+	type = Level2Box
+	uin = 49
+	classPrompt = Dynamic
+	position = -17.88067 -20.94323 0.6519756
+	name = Level2Box_7
+}
+entity
+{
+	type = Level2Box
+	uin = 50
+	classPrompt = Dynamic
+	position = -16.10262 -20.95132 0.6541571
+	name = Level2Box_8
+}
+entity
+{
+	type = Level2Box
+	uin = 51
+	classPrompt = Dynamic
+	position = -12.82476 -20.73804 0.6559206
+	name = Level2Box_9
+}
+entity
+{
+	type = Level2Box
+	uin = 52
+	classPrompt = Dynamic
+	position = -14.60795 -18.38493 0.6533405
+	name = Level2Box_10
+}
+entity
+{
+	type = Level2Box
+	uin = 53
+	classPrompt = Dynamic
+	position = -17.8756 -20.93505 1.954103
+	name = Level2Box_11
+}
+entity
+{
+	type = Level2Box
+	uin = 54
+	classPrompt = Dynamic
+	position = -16.10822 -20.99927 1.952241
+	name = Level2Box_12
+}
+entity
+{
+	type = Level2Box
+	uin = 55
+	classPrompt = Dynamic
+	position = -17.89027 -20.97163 3.258495
+	name = Level2Box_13
+}
+entity
+{
+	type = Level2Box2
+	uin = 56
+	classPrompt = Dynamic
+	position = -103.7612 36.3031 2.949167
+	name = Level2Box2_0
+}
+entity
+{
+	type = Level2Box2
+	uin = 57
+	classPrompt = Dynamic
+	position = -103.6869 33.25777 2.9533
+	name = Level2Box2_1
+}
+entity
+{
+	type = Level2Box2
+	uin = 58
+	classPrompt = Dynamic
+	position = -103.6535 29.84296 2.951559
+	name = Level2Box2_2
+}
+entity
+{
+	type = Level2Box2
+	uin = 59
+	classPrompt = Dynamic
+	position = -3.866827 10.2634 1.026234
+	rotation = 0 0 -0.5811441 0.8138006
+	name = Level2Box2_3
+}

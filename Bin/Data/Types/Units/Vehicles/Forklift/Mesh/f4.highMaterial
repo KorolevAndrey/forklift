@@ -1,0 +1,5 @@
+highLevelMaterial f4
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.8078432 0.4196079 0.03137255
+}

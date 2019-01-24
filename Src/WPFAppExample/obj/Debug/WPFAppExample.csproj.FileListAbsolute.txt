@@ -1,0 +1,14 @@
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\WPFAppExample.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\WPFAppExample.pdb
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\ResolveAssemblyReference.cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\AdditionalWindow.baml
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\MainWindow.baml
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\AdditionalWindow.g.cs
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\MainWindow.g.cs
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\App.g.cs
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\WPFAppExample_MarkupCompile.cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\WPFAppExample.g.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\WPFAppExample.Properties.Resources.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\WPFAppExample.csproj.GenerateResource.Cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\WPFAppExample.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\WPFAppExample\obj\Debug\WPFAppExample.pdb

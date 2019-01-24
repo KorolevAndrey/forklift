@@ -1,0 +1,9 @@
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\DedicatedServer.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\DedicatedServer.pdb
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\DedicatedServer.xml
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\DedicatedServer\obj\Debug\ResolveAssemblyReference.cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\DedicatedServer\obj\Debug\DedicatedServer.MainForm.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\DedicatedServer\obj\Debug\DedicatedServer.Properties.Resources.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\DedicatedServer\obj\Debug\DedicatedServer.csproj.GenerateResource.Cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\DedicatedServer\obj\Debug\DedicatedServer.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\DedicatedServer\obj\Debug\DedicatedServer.pdb

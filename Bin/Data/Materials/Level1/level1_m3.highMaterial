@@ -1,0 +1,14 @@
+highLevelMaterial level1_m3
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.7725491 0.8588236 0
+	diffusePower = 1.892
+	diffuse1Map
+	{
+		texture = Materials\Level1\grass.dds
+		transform
+		{
+			scale = 6 6
+		}
+	}
+}

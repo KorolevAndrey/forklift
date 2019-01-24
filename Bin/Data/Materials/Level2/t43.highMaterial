@@ -1,0 +1,6 @@
+highLevelMaterial t43
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0 0.4156863 1
+	specularColor = 1 1 1
+}

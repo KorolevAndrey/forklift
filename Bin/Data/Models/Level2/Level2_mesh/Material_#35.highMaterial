@@ -1,0 +1,17 @@
+highLevelMaterial Material_#35
+{
+	template = ShaderBaseMaterial
+	specularColor = 1 1 1
+	diffuse1Map
+	{
+		texture = Models\Level2\Level2_mesh\Level2_tx (19).png
+	}
+	specularMap
+	{
+		texture = Models\Level2\Level2_mesh\Level2_tx (19)s.png
+	}
+	normalMap
+	{
+		texture = Models\Level2\Level2_mesh\Level2_tx (19)n.png
+	}
+}

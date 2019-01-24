@@ -1,0 +1,6 @@
+highLevelMaterial f3
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0 0 0
+	specularColor = 1 1 1
+}

@@ -1,0 +1,11 @@
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\ChatExample.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\ChatExample.pdb
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Bin\ChatExample.xml
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ResolveAssemblyReference.cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ChatExample.ClientForm.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ChatExample.MainForm.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ChatExample.Properties.Resources.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ChatExample.ServerForm.resources
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ChatExample.csproj.GenerateResource.Cache
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ChatExample.exe
+C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\ChatExample\obj\Debug\ChatExample.pdb

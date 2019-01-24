@@ -1,0 +1,10 @@
+highLevelMaterial skycylinder
+{
+	template = ShaderBaseMaterial
+	blending = AlphaBlend
+	lighting = False
+	diffuse1Map
+	{
+		texture = Materials\Level1\skycylinder.png
+	}
+}

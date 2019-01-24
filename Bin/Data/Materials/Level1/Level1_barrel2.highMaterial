@@ -1,0 +1,16 @@
+highLevelMaterial Level1_barrel2
+{
+	template = ShaderBaseMaterial
+	alphaRejectFunction = GreaterEqual
+	reflectionColor = 0.1176471 0.1176471 0.1176471
+	specularColor = 1 1 1
+	specularShininess = 46.486
+	diffuse1Map
+	{
+		texture = Materials\Level1\barrel.png
+	}
+	normalMap
+	{
+		texture = Materials\Level1\barrel_n.png
+	}
+}

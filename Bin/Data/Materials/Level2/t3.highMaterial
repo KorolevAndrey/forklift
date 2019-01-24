@@ -1,0 +1,19 @@
+highLevelMaterial t3
+{
+	template = ShaderBaseMaterial
+	alphaRejectFunction = GreaterEqual
+	specularColor = 1 1 1
+	specularShininess = 40.243
+	diffuse1Map
+	{
+		texture = Materials\Level2\t3.png
+	}
+	diffuse2Map
+	{
+		texture = Materials\Level2\t3.png
+	}
+	specularMap
+	{
+		texture = Materials\Level2\t3.png
+	}
+}

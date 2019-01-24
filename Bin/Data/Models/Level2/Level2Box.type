@@ -1,0 +1,15 @@
+type Level2Box
+{
+	class = Dynamic
+	physicsModel = Models\Level2\Level2Box.physics
+	allowEditorCreate = True
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = Models\Level2\box_l2.mesh
+			castDynamicShadows = True
+			position = 0 0 -0.6499024
+		}
+	}
+}

@@ -1,0 +1,11 @@
+highLevelMaterial Level1_barrel1
+{
+	template = ShaderBaseMaterial
+	alphaRejectFunction = GreaterEqual
+	specularColor = 1 1 1
+	specularShininess = 46.486
+	diffuse1Map
+	{
+		texture = Materials\Level1\hazard.png
+	}
+}

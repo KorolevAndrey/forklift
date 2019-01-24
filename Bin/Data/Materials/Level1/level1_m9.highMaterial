@@ -1,0 +1,16 @@
+highLevelMaterial level1_m9
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.627451 0.627451 0.627451
+	reflectionColor = 0.1176471 0.1176471 0.1176471
+	specularColor = 1 1 1
+	specularShininess = 44.703
+	normalMap
+	{
+		texture = Materials\Level1\ground.jpg
+		transform
+		{
+			scale = 30 30
+		}
+	}
+}

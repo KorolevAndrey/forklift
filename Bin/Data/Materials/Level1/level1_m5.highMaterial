@@ -1,0 +1,14 @@
+highLevelMaterial level1_m5
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.8470589 0.8470589 0.8470589
+	specularColor = 0.4588236 0.4588236 0.4588236
+	diffuse1Map
+	{
+		texture = Materials\Level1\plastic2.png
+	}
+	normalMap
+	{
+		texture = Materials\Level1\plastic2_n.png
+	}
+}

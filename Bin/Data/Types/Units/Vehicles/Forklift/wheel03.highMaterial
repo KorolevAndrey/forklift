@@ -1,0 +1,16 @@
+highLevelMaterial wheel03
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.1372549 0.1372549 0.1333333
+	reflectionScaleDynamic = True
+	specularColor = 0.5921569 0.5686275 0.6
+	specularShininess = 18.838
+	specularMap
+	{
+		texture = Types\Units\vehicles\forklift\metal.jpg
+	}
+	normalMap
+	{
+		texture = Types\Units\Vehicles\Forklift\metal_normalmap.png
+	}
+}
